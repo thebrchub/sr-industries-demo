@@ -41,7 +41,7 @@ export default function About() {
             <div className="absolute inset-0 bg-gradient-to-tr from-[#0F172A] to-[#1E293B] opacity-80 mix-blend-multiply transition-opacity duration-500 group-hover:opacity-60"></div>
            <div className="absolute inset-0 m-4 overflow-hidden rounded-2xl border border-white/10 shadow-2xl group">
   <img 
-    src="/about.png" 
+    src="/about.webp" 
     alt="SR Industries Manufacturing Facility" 
     className="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110 opacity-70 group-hover:opacity-100"
   />

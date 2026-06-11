@@ -38,7 +38,7 @@ export default function Hero() {
       {/* Cinematic Background Image & Dark Overlays */}
       <div 
         className="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: 'url("/hero.png")' }}
+        style={{ backgroundImage: 'url("/hero.webp")' }}
       ></div>
       <div className="absolute inset-0 bg-gradient-to-r from-[#020617] via-[#020617]/95 to-[#020617]/40 z-0"></div>
       <div className="absolute inset-0 bg-gradient-to-t from-[#020617] via-transparent to-transparent z-0"></div>

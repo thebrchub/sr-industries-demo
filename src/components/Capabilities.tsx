@@ -4,10 +4,10 @@ import { machineryData } from '../data/content';
 
 // High-end industrial imagery mapped to the cards
 const machineImages = [
-  "/Infrastructure/1.png", // Heavy Surface Grinder
-  "/Infrastructure/2.png", // Precision Tooling
-  "/Infrastructure/4.png", // Cutting Systems
-  "/Infrastructure/3.png"  // Heavy Operations
+  "/Infrastructure/1.webp", // Heavy Surface Grinder
+  "/Infrastructure/2.webp", // Precision Tooling
+  "/Infrastructure/4.webp", // Cutting Systems
+  "/Infrastructure/3.webp"  // Heavy Operations
 ];
 
 export default function Capabilities() {

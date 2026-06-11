@@ -30,25 +30,25 @@ export const servicesData = [
     title: "Surface\n Grinding", 
     desc: "Precision finishing for steel plates and industrial components with micron-level accuracy.", 
     icon: "Layers",
-    image: "/services/1.png"
+    image: "/services/1.webp"
   },
   { 
     title: "Mould Base\nGrinding", 
     desc: "High-accuracy grinding for tooling and mould applications ensuring perfect alignment.", 
     icon: "Box",
-    image: "/services/2.png"
+    image: "/services/2.webp"
   },
   { 
     title: "Cutting\nTools", 
     desc: "Paper cutters, PP cutters, shearing blades and custom tools engineered for durability.", 
     icon: "Scissors",
-    image: "/services/3.png"
+    image: "/services/3.webp"
   },
   { 
     title: "Industrial\nMaintenance", 
     desc: "Support services for industrial tooling, keeping your production floor running smoothly.", 
     icon: "Wrench",
-    image: "/services/4.png"
+    image: "/services/4.webp"
   }
 ];
 
@@ -110,36 +110,36 @@ export const galleryData = [
     title: "Heavy Precision Milling", 
     category: "Operations", 
     size: "large",
-    image: "gallery/1.png"
+    image: "gallery/1.webp"
   },
   { 
     title: "Surface Grinding Setup", 
     category: "Machinery", 
     size: "medium",
-    image: "gallery/2.png"
+    image: "gallery/2.webp"
   },
   { 
     title: "Steel Plate Processing", 
     category: "Infrastructure", 
     size: "medium",
-    image: "gallery/3.png"
+    image: "gallery/3.webp"
   },
   { 
     title: "Mould Base Setup", 
     category: "Tooling", 
     size: "small",
-    image: "gallery/4.png"
+    image: "gallery/4.webp"
   },
   { 
     title: "Shearing Blades", 
     category: "Products", 
     size: "small",
-    image: "gallery/5.png"
+    image: "gallery/5.webp"
   },
   { 
     title: "Quality Verification", 
     category: "Inspection", 
     size: "medium",
-    image: "gallery/6.png"
+    image: "gallery/6.webp"
   }
 ];

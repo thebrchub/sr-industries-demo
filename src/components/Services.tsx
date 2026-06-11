@@ -62,17 +62,17 @@ export default function Services() {
                 transition={{ duration: 0.6, delay: index * 0.1 }}
                 className="group relative overflow-hidden rounded-2xl h-[460px] cursor-pointer bg-[#020617] border border-white/10 shadow-2xl"
               >
-                {/* Background Image with Zoom Effect (Kept at a static opacity to prevent flashing) */}
+                {/* Background Image: Starts dark (opacity-40), becomes BRIGHT on hover (opacity-80) */}
                 <div 
-                  className="absolute inset-0 bg-cover bg-center transition-transform duration-1000 group-hover:scale-110 opacity-50"
+                  className="absolute inset-0 bg-cover bg-center transition-all duration-1000 group-hover:scale-110 opacity-40 group-hover:opacity-80"
                   style={{ backgroundImage: `url(${service.image})` }}
                 />
                 
-                {/* 1. Base Gradient Overlay (Always Visible) */}
-                <div className="absolute inset-0 bg-gradient-to-t from-[#020617] via-[#020617]/80 to-transparent" />
+                {/* 1. Base Gradient Overlay (Lightened up to reveal more image naturally) */}
+                <div className="absolute inset-0 bg-gradient-to-t from-[#020617] via-[#020617]/50 to-transparent" />
                 
-                {/* 2. Hover Darkening Overlay (Fades in smoothly over 500ms without snapping) */}
-                <div className="absolute inset-0 bg-gradient-to-t from-[#020617] via-[#020617]/95 to-[#020617]/60 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+                {/* 2. Hover Text-Protection Overlay (Only darkens the bottom text area, leaving the top bright and vivid) */}
+                <div className="absolute inset-0 bg-gradient-to-t from-[#020617] via-[#020617]/80 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
                 
                 {/* Content Layer */}
                 <div className="absolute inset-0 p-8 flex flex-col justify-end">

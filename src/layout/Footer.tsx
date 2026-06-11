@@ -22,7 +22,7 @@ export default function Footer() {
           {/* Low Opacity Background Image */}
           <div 
             className="absolute inset-0 z-0 bg-cover bg-center bg-no-repeat opacity-80 pointer-events-none mix-blend-luminosity"
-            style={{ backgroundImage: ("url('/footer.png')") }}
+            style={{ backgroundImage: ("url('/footer.webp')") }}
           ></div>
           
           {/* Subtle Background Flare & Gradient Fades to blend the image seamlessly */}

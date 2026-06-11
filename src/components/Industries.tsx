@@ -4,12 +4,12 @@ import { whyChooseUsData, industriesData } from '../data/content';
 
 // Premium industrial images mapped to your existing industries data
 const industryImages = [
-  "industries/1.png", // Automotive
-  "industries/2.png", // Packaging
-  "industries/3.png", // Printing
-  "industries/4.png", // Steel
-  "industries/5.png", // Heavy Mfg
-  "industries/6.png"  // Industrial Equip
+  "industries/1.webp", // Automotive
+  "industries/2.webp", // Packaging
+  "industries/3.webp", // Printing
+  "industries/4.webp", // Steel
+  "industries/5.webp", // Heavy Mfg
+  "industries/6.webp"  // Industrial Equip
 ];
 
 export default function Industries() {
