@@ -30,7 +30,8 @@ const bottomStrip = [
 
 export default function Hero() {
   return (
-    <section className="relative min-h-screen flex flex-col justify-center overflow-hidden bg-[#020617] pt-32 pb-48 md:pb-56">
+
+    <section className="relative min-h-screen flex flex-col justify-center overflow-hidden bg-[#020617] pt-32 pb-16 md:pb-56">
       
       {/* Modular Navbar */}
       <Navbar />
